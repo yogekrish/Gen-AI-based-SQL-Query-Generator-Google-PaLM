@@ -6,7 +6,9 @@ This project uses Google PaLM LLM and LangChain to create a system that lets use
 A T-shirt store, stores its inventory, sales, and discount data in MySQL. A store manager can ask:
 
 "How many white Nike T-shirts are left in stock?"
+
 "What will be our total sales if we sell all small T-shirts with discounts applied?"
+
 The system understands these questions, converts them into SQL queries, runs them on the database, and provides correct answers.
 
 ![](retail_stock.png)
